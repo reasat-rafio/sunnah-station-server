@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "new_arrivals",
   "info": {
-    "name": "new-arrival"
+    "name": "new-arrival",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -49,6 +50,17 @@
     },
     "slug": {
       "type": "string"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
