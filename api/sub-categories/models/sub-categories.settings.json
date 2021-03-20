@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sub_categories",
+  "info": {
+    "name": "sub_categories"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "special_deals": {
+      "via": "sub_categories",
+      "collection": "special-deal"
+    },
+    "new_arrivals": {
+      "via": "sub_categories",
+      "collection": "new-arrival"
+    }
+  }
+}

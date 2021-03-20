@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "special_deals",
+  "info": {
+    "name": "special-deal",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "in_stock": {
+      "type": "boolean",
+      "default": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "sub_categories": {
+      "collection": "sub-categories",
+      "via": "special_deals",
+      "dominant": true
+    },
+    "main_categories": {
+      "collection": "main-category",
+      "via": "special_deals",
+      "dominant": true
+    },
+    "offer_price": {
+      "type": "string"
+    },
+    "offer_till": {
+      "type": "date"
+    },
+    "short_description": {
+      "type": "text"
+    },
+    "points": {
+      "type": "json"
+    },
+    "review": {
+      "type": "json"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "regular_price": {
+      "type": "string"
+    }
+  }
+}

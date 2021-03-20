@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_categories",
+  "info": {
+    "name": "main_category",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "special_deals": {
+      "via": "main_categories",
+      "collection": "special-deal"
+    },
+    "new_arrivals": {
+      "via": "main_categories",
+      "collection": "new-arrival"
+    }
+  }
+}

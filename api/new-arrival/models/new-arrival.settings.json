@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "new_arrivals",
+  "info": {
+    "name": "new-arrival"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "in_stock": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "sub_categories": {
+      "collection": "sub-categories",
+      "via": "new_arrivals",
+      "dominant": true
+    },
+    "main_categories": {
+      "collection": "main-category",
+      "via": "new_arrivals",
+      "dominant": true
+    },
+    "regular_price": {
+      "type": "string"
+    },
+    "offer_price": {
+      "type": "string"
+    },
+    "offer_till": {
+      "type": "date"
+    },
+    "short_description": {
+      "type": "text"
+    },
+    "points": {
+      "type": "json"
+    },
+    "review": {
+      "type": "json"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
