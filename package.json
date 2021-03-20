@@ -24,7 +24,8 @@
     "strapi-plugin-upload": "3.5.3",
     "strapi-plugin-users-permissions": "3.5.3",
     "strapi-provider-upload-cloudinary": "^3.5.3",
-    "strapi-utils": "3.5.3"
+    "strapi-utils": "3.5.3",
+    "@ckeditor/ckeditor5-react": "^3.0.2"
   },
   "author": {
     "name": "A Strapi developer"
