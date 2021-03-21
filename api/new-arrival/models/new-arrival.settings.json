@@ -48,9 +48,6 @@
     "review": {
       "type": "json"
     },
-    "slug": {
-      "type": "string"
-    },
     "image": {
       "collection": "file",
       "via": "related",
@@ -61,6 +58,22 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "keywords": {
+      "type": "text"
+    },
+    "preventIndexing": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

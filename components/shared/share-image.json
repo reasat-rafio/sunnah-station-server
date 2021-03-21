@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_share_images",
+  "info": {
+    "name": "shareImage",
+    "icon": "dove"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}

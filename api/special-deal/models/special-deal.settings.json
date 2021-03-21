@@ -46,9 +46,6 @@
     "review": {
       "type": "json"
     },
-    "slug": {
-      "type": "string"
-    },
     "regular_price": {
       "type": "string"
     },
@@ -62,6 +59,15 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
     }
   }
 }
