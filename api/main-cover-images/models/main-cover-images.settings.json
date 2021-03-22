@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_cover_images",
+  "info": {
+    "name": "main-cover-images"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
