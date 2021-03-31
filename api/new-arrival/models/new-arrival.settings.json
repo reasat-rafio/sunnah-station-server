@@ -42,9 +42,6 @@
     "short_description": {
       "type": "text"
     },
-    "points": {
-      "type": "json"
-    },
     "review": {
       "type": "json"
     },
