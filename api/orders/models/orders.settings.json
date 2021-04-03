@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "Orders"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "street_adress": {
+      "type": "string"
+    },
+    "town_city": {
+      "type": "string"
+    },
+    "District": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "email_address": {
+      "type": "string"
+    },
+    "additional_information": {
+      "type": "text"
+    },
+    "total_price": {
+      "type": "string"
+    },
+    "ordered_products": {
+      "type": "json"
+    },
+    "peyment_method": {
+      "type": "string"
+    },
+    "trasaction_Id": {
+      "type": "string"
+    }
+  }
+}

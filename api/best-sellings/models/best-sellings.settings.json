@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "best_sellings",
+  "info": {
+    "name": "best sellings"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "in_stock": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "sub_categories": {
+      "collection": "sub-categories",
+      "via": "best_sellings",
+      "dominant": true
+    },
+    "main_categories": {
+      "collection": "main-category",
+      "via": "best_sellings",
+      "dominant": true
+    },
+    "offer_price": {
+      "type": "string"
+    },
+    "offer_till": {
+      "type": "date"
+    },
+    "short_description": {
+      "type": "text"
+    },
+    "review": {
+      "type": "json"
+    },
+    "regular_price": {
+      "type": "string"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
+    }
+  }
+}

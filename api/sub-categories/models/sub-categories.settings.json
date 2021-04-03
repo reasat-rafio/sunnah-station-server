@@ -20,6 +20,10 @@
     "new_arrivals": {
       "via": "sub_categories",
       "collection": "new-arrival"
+    },
+    "best_sellings": {
+      "via": "sub_categories",
+      "collection": "best-sellings"
     }
   }
 }

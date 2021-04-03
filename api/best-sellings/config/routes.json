@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/best-sellings",
+      "handler": "best-sellings.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/best-sellings/count",
+      "handler": "best-sellings.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/best-sellings/:id",
+      "handler": "best-sellings.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/best-sellings",
+      "handler": "best-sellings.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/best-sellings/:id",
+      "handler": "best-sellings.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/best-sellings/:id",
+      "handler": "best-sellings.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
