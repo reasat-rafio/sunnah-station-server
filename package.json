@@ -12,6 +12,7 @@
   "devDependencies": {},
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^26.0.0",
+    "@ckeditor/ckeditor5-react": "^3.0.2",
     "dotenv": "^8.2.0",
     "saslprep": "^1.0.3",
     "slugify": "^1.4.7",
@@ -24,8 +25,7 @@
     "strapi-plugin-upload": "3.5.3",
     "strapi-plugin-users-permissions": "3.5.3",
     "strapi-provider-upload-cloudinary": "^3.5.3",
-    "strapi-utils": "3.5.3",
-    "@ckeditor/ckeditor5-react": "^3.0.2"
+    "strapi-utils": "3.5.3"
   },
   "author": {
     "name": "A Strapi developer"

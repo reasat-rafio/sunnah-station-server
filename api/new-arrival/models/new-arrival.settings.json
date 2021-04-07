@@ -71,6 +71,10 @@
     "preventIndexing": {
       "type": "boolean",
       "default": false
+    },
+    "highlight": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
