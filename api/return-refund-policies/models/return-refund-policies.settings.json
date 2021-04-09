@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "return_refund_policies",
+  "info": {
+    "name": "return-refund-policies",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "return_refund_policies": {
+      "type": "richtext"
+    }
+  }
+}

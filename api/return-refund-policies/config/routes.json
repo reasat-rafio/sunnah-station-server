@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/return-refund-policies",
+      "handler": "return-refund-policies.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/return-refund-policies/count",
+      "handler": "return-refund-policies.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/return-refund-policies/:id",
+      "handler": "return-refund-policies.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/return-refund-policies",
+      "handler": "return-refund-policies.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/return-refund-policies/:id",
+      "handler": "return-refund-policies.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/return-refund-policies/:id",
+      "handler": "return-refund-policies.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
