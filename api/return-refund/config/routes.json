@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/privacy-policy",
-      "handler": "privacy-policy.find",
+      "path": "/return-refund",
+      "handler": "return-refund.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/privacy-policy",
-      "handler": "privacy-policy.update",
+      "path": "/return-refund",
+      "handler": "return-refund.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/privacy-policy",
-      "handler": "privacy-policy.delete",
+      "path": "/return-refund",
+      "handler": "return-refund.delete",
       "config": {
         "policies": []
       }

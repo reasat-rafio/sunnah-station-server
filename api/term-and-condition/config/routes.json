@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/privacy-policy",
-      "handler": "privacy-policy.find",
+      "path": "/term-and-condition",
+      "handler": "term-and-condition.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/privacy-policy",
-      "handler": "privacy-policy.update",
+      "path": "/term-and-condition",
+      "handler": "term-and-condition.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/privacy-policy",
-      "handler": "privacy-policy.delete",
+      "path": "/term-and-condition",
+      "handler": "term-and-condition.delete",
       "config": {
         "policies": []
       }

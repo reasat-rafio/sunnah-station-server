@@ -1,8 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "return_refund_policies",
+  "kind": "singleType",
+  "collectionName": "term_and_conditions",
   "info": {
-    "name": "return-refund-policy"
+    "name": "term-and-condition"
   },
   "options": {
     "increments": true,
@@ -10,7 +10,7 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "return_refund_policies": {
+    "term_and_condition": {
       "type": "richtext"
     }
   }

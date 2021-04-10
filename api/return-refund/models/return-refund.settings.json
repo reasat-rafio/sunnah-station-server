@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "privacy_policies",
+  "collectionName": "return_refunds",
   "info": {
-    "name": "privacy-policy"
+    "name": "return-refund"
   },
   "options": {
     "increments": true,
@@ -10,7 +10,7 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "privacy_policy": {
+    "return_refund": {
       "type": "richtext"
     }
   }
