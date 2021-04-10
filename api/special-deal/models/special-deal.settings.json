@@ -69,6 +69,13 @@
     "highlight": {
       "type": "boolean",
       "default": false
+    },
+    "multiple_quantity": {
+      "type": "boolean",
+      "default": false
+    },
+    "quantity_and_price": {
+      "type": "json"
     }
   }
 }
