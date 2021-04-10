@@ -16,16 +16,16 @@
     "dotenv": "^8.2.0",
     "saslprep": "^1.0.3",
     "slugify": "^1.4.7",
-    "strapi": "3.5.3",
-    "strapi-admin": "3.5.3",
-    "strapi-connector-mongoose": "3.5.3",
-    "strapi-plugin-content-manager": "3.5.3",
-    "strapi-plugin-content-type-builder": "3.5.3",
-    "strapi-plugin-email": "3.5.3",
-    "strapi-plugin-upload": "3.5.3",
-    "strapi-plugin-users-permissions": "3.5.3",
-    "strapi-provider-upload-cloudinary": "^3.5.3",
-    "strapi-utils": "3.5.3"
+    "strapi": "3.5.4",
+    "strapi-admin": "3.5.4",
+    "strapi-connector-mongoose": "3.5.4",
+    "strapi-plugin-content-manager": "3.5.4",
+    "strapi-plugin-content-type-builder": "3.5.4",
+    "strapi-plugin-email": "3.5.4",
+    "strapi-plugin-upload": "3.5.4",
+    "strapi-plugin-users-permissions": "3.5.4",
+    "strapi-provider-upload-cloudinary": "^3.5.4",
+    "strapi-utils": "3.5.4"
   },
   "author": {
     "name": "A Strapi developer"
