@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/return-refund-policies",
-      "handler": "return-refund-policies.find",
+      "handler": "return-refund-policy.find",
       "config": {
         "policies": []
       }
@@ -11,7 +11,7 @@
     {
       "method": "GET",
       "path": "/return-refund-policies/count",
-      "handler": "return-refund-policies.count",
+      "handler": "return-refund-policy.count",
       "config": {
         "policies": []
       }
@@ -19,7 +19,7 @@
     {
       "method": "GET",
       "path": "/return-refund-policies/:id",
-      "handler": "return-refund-policies.findOne",
+      "handler": "return-refund-policy.findOne",
       "config": {
         "policies": []
       }
@@ -27,7 +27,7 @@
     {
       "method": "POST",
       "path": "/return-refund-policies",
-      "handler": "return-refund-policies.create",
+      "handler": "return-refund-policy.create",
       "config": {
         "policies": []
       }
@@ -35,7 +35,7 @@
     {
       "method": "PUT",
       "path": "/return-refund-policies/:id",
-      "handler": "return-refund-policies.update",
+      "handler": "return-refund-policy.update",
       "config": {
         "policies": []
       }
@@ -43,7 +43,7 @@
     {
       "method": "DELETE",
       "path": "/return-refund-policies/:id",
-      "handler": "return-refund-policies.delete",
+      "handler": "return-refund-policy.delete",
       "config": {
         "policies": []
       }

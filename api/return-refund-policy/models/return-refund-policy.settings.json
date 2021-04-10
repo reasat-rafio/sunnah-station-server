@@ -2,8 +2,7 @@
   "kind": "collectionType",
   "collectionName": "return_refund_policies",
   "info": {
-    "name": "return-refund-policies",
-    "description": ""
+    "name": "return-refund-policy"
   },
   "options": {
     "increments": true,
